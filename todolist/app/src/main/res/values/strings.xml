@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Lista Zadań</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Krystian Żak 7ION1</string>
+    <string name="nav_header_subtitle">Aplikacja typu lista zadań</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_mark_all_done">Oznacz wszystkie jako zrobione</string>
+    <string name="action_mark_all_progress">Oznacz wszystkie jako w trakcie</string>
+    <string name="changed_all_done">Wszystkie zadanie oznaczone jako zrobione</string>
+    <string name="changed_all_progress">Wszystkie zadanie oznaczone jako w trakcie</string>
+    <string name="action_sort">Sortowanie</string>
+
+    <string name="author">Krystian Żak</string>
+    <string name="wstiGroup">7ION1</string>
+    <string name="wstiMail">krystian.zak@edu.wsti.pl</string>
+    <string name="about">Aplikacja wspomagająca zarządzaniem i planowaniem zadań do zrobienia w określonym czasie.
+        <br/><br/>\n\nFunkcjonalności:
+        <br/>\n- wyświetlenie listy zadań z filtrowaniem na:
+        <br/>\n -- Wszystkie:
+        <br/>\n -- W trakcie:
+        <br/>\n -- Zrobione:
+        <br/>\n- dodanie zadania na listę,
+        <br/>\n- edycję zadania z listy,
+        <br/>\n- usuwanie zadania z listy,
+        <br/>\n- oznaczenie zadania jako zrobione,
+        <br/>\n- generowanie przypomnienia o zadaniach do zrobienia, lub których termin minął, z możliwością wyłączenia takich powiadomień ogólnie, dla poszczególnych priorytetów oraz ustawianie częstotliwości powiadomień,
+        <br/>\n- import i eksport pojedynczego zadania do pliku tekstowego,
+        <br/>\n- import i eksport bazy danych z listą zadań do pliku .db,
+        <br/>\n- sortowanie zadań po co najmniej 3 kryteriach (np. po dacie dodania, terminie zakończenia zadania, priorytecie, nazwie zadania, statusie),,
+        <br/>\n- tryb nocny i dzienny,
+        <br/>\n- wyszukiwanie zadania "na żywo",
+        <br/>\n- odświeżanie listy poprzez przycisk oraz poprzez "swipe" przeciągnięcie palcem z góry na dół,
+        <br/>\n- oznaczanie wszystkich zadań jako zrobionych lub w trakcie,
+        <br/>\n- resetowanie bazy danych
+        <br/>\n- kolorystyczne oznaczenie priorytetu zadania
+        <br/>\n- kolorystyczne oznaczenie przekroczenia końcowej daty z aktualną.</string>
+
+
+
+    <string name="menu_home">W trakcie</string>
+    <string name="menu_done">Zrobione</string>
+    <string name="menu_all">Wszystkie</string>
+
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_about">O aplikacji</string>
+
+
+    <string name="menu_jobs">Zadania</string>
+    <string name="menu_another">Inne</string>
+
+    <string name="priority_easy">Mały</string>
+    <string name="priority_medium">Średni</string>
+    <string name="priority_hard">Duży</string>
+    <string name="default_priority">Domyślny priorytet:</string>
+
+    <string name="delete_question">Czy jesteś pewien, że chcesz usunąć to zadanie?</string>
+    <string name="delete_title">Usuwanie</string>
+
+    <string name="settings_database">Baza danych:</string>
+    <string name="settings_notification">Powiadomienia:</string>
+    <string name="settings_notification_system">Ustawienia systemowe</string>
+    <string name="settings_night_mode">Tryb nocny</string>
+    <string name="settings_design">Wygląd</string>
+    <string name="settings_notifyTime">Czestotliwość powiadomień:</string>
+    <string name="settings_notifyPriority">Priorytety zadań, dla których wysyłane są powiadomienia:</string>
+    <string name="settings_notifyEnable">Włączono: </string>
+    <string name="settings_notifyEnabled">Włączono powiadomienia </string>
+    <string name="settings_notifyDisabled">Wyłączono powiadomienia </string>
+    <string name="settings_exportDB">Eksport bazy danych</string>
+    <string name="settings_exportQuestion1">Czy jesteś pewien eksportu pliku bazy danych?\n\nKopia zostanie zapisana w /</string>
+    <string name="settings_importDB">Import bazy danych</string>
+    <string name="settings_importQuestion1">Czy jesteś pewien importu bazy danych?\n\nAktualne dane aplikacji zostaną usunięte na zawsze. \nKopia bazy danych musi być umieszczona w /</string>
+    <string name="settings_importQuestion2">\n\nAplikacja zostanie zrestartowana!!!</string>
+    <string name="settings_exportSuccess">Baza danych została wyeksportowana z sukcesem.</string>
+    <string name="settings_importSuccess">Baza danych została zaimportowana z sukcesem.</string>
+    <string name="settings_exportError">W trakcie eksportu wystąpił problem!!!</string>
+    <string name="settings_importError">W trakcie importu wystąpił problem!!!</string>
+    <string name="settings_importExportPermission">Aplikacja potrzebuje dodatkowych uprawnień do zapisu i odczytu danych, czy zgadzasz sie?\n\nPo przyznaniu uprawnień należy ponownie wybrać opcje.</string>
+    <string name="settings_importExportPermissionTitle">Brak uprawnień!!!</string>
+
+    <string name="Error_NoDbFile">Błąd! Brak pliku bazy danych</string>
+    <string name="noStoragePermission">Brak uprawnień do zapisu/odczytu danych!!!</string>
+
+    <string name="cancel">Anuluj</string>
+    <string name="reset">Reset</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="reset_dialog">Czy jesteś pewien, że chcesz zresetować/wyczyścić bazę danych?</string>
+    <string name="deadline">Termin</string>
+    <string name="list_refreshed">Lista zadań została odświeżona</string>
+    <string name="sort">Sortuj</string>
+    <string name="update">Zaktualizuj</string>
+    <string name="updated">Zaktualizowano</string>
+
+    <string name="dialog_add_new_job">Dodaj zadanie</string>
+    <string name="dialog_job_name">Nazwa zadania:</string>
+    <string name="dialog_job_description">Opis:</string>
+    <string name="dialog_job_notes">Notatki:</string>
+    <string name="dialog_job_priority">Priorytet:</string>
+    <string name="dialog_job_date">Data i czas zakończenia:</string>
+    <string name="dialog_job_dateStart">Data i czas utworzenia:</string>
+    <string name="dialog_job_date_select">Wybierz datę</string>
+    <string name="dialog_job_time_select">Wybierz czas</string>
+    <string name="dialog_job_added">Zadanie zostało dodane</string>
+    <string name="dialog_job_status">Status:</string>
+    <string name="dialog_job_status0">Nie ukończone</string>
+    <string name="dialog_job_status1">Ukończone</string>
+    <string name="dialog_job_buttonJobExportText">Eksport do pliku txt</string>
+
+
+    <string name="dialog_export_txt_question">Czy jesteś pewien eksportu tego zadania do pliku txt </string>
+    <string name="dialog_export_txt_question2">\n\nJeżeli istnieje już taki plik, to zostanie nadpisany</string>
+    <string name="dialog_export_txt_title">Eksport zadania</string>
+    <string name="export_succes">Eksport udany</string>
+
+    <string name="nameIsEmpty">Nazwa jest pusta</string>
+    <string name="nameIsTooLong">Nazwa jest zbyt długa, max. 40 znaków</string>
+    <string name="endDateTimeIsEmpty">Data lub czas zakończenia jest pusta</string>
+
+
+    <string name="dialog_sort_question">Wybierz rodzaj sortowania:</string>
+    <string name="dialog_sort_title">Sortowanie zadań</string>
+    <string name="dialog_sort_result">Posortowano według: </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>

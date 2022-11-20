@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroupDefaultDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/default_priority"
+                android:textColor="@color/header1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/priority_easy"
+                android:textColor="#4CAF50" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/priority_medium"
+                android:textColor="#FF9800" />
+
+            <RadioButton
+                android:id="@+id/radioButtonHard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/priority_hard"
+                android:textColor="#F44336" />
+
+
+        </RadioGroup>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_database"
+            android:textColor="@color/header1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDatabaseImport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonMain"
+                android:text="Import"
+                android:textColor="@color/buttonMainText" />
+
+            <Button
+                android:id="@+id/buttonDatabaseExport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonMain"
+                android:text="Export"
+                android:textColor="@color/buttonMainText" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonDatabaseReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/buttonMain"
+            android:text="@string/reset"
+            android:textColor="@color/buttonMainText" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_notification"
+            android:textColor="@color/header1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchEnableNotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/settings_notifyEnable" />
+
+        <Button
+            android:id="@+id/buttonNotificationSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/buttonMain"
+            android:text="@string/settings_notification_system"
+            android:textColor="@color/buttonMainText" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_notifyTime" />
+
+        <Spinner
+            android:id="@+id/spinnerSort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/settingsSpinner"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_notifyPriority" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPriorityEasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_easy"
+            android:textColor="#4CAF50" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPriorityMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_medium"
+            android:textColor="#FF9800" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPriorityHard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_hard"
+            android:textColor="#F44336" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_design"
+            android:textColor="@color/header1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchNightMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/settings_night_mode" />
+
+    </LinearLayout>
+</ScrollView>

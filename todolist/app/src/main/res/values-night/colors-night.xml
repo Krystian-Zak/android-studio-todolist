@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="jobCardViewBackground">#3D3D3D</color>
+    <color name="jobCardViewText">#FEFEFE</color>
+    <color name="TextAppearance.Widget.IconMenu.Item">@color/white</color>
+
+    <color name="settingsSpinner">#E8252525</color>
+    <color name="buttonMainText">#FFFFFFFF</color>
+
+    <color name="navHeaderBackground">#FAFAFA</color>
+
+    <color name="aboutBackground">#252525</color>
+    <color name="aboutText">#FEFEFE</color>
+</resources>

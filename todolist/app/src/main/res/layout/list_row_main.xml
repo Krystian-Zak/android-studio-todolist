@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:backgroundTint="@color/jobCardViewBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="75dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxJobDone"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:scaleX="1.5"
+                android:scaleY="1.5" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/jobCardViewText"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewEndDateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/jobCardViewText"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageViewJobEdit"
+                android:layout_width="32dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/jobCardViewEdit"
+                android:padding="2dp"
+                android:tint="@android:color/white"
+                app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+            <ImageView
+                android:id="@+id/imageViewJobDelete"
+                android:layout_width="32dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/jobCardViewTrash"
+                android:padding="2dp"
+                android:tint="@android:color/white"
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/blockPriority"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="#FF0000"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="387dp"></LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aboutBackground"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="80dp"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            app:srcCompat="@drawable/nowe_wsti" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/author"
+            android:textColor="@color/aboutText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/wstiGroup"
+            android:textColor="@color/aboutText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/wstiMail"
+            android:textColor="@color/aboutText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/about"
+            android:textColor="@color/aboutText"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingTop="12dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_job_name"
+                android:textColor="@color/header1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextNewJobName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/dialog_job_notes"
+                android:textColor="@color/header1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextNewJobDescription"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:layout_margin="5dp"
+                android:background="#43FFFFFF"
+                android:backgroundTint="#43FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:padding="5dp"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/dialog_job_date"
+                android:textColor="@color/header1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/buttonNewJobSelectEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/buttonMain"
+                    android:text="@string/dialog_job_date_select"
+                    android:textColor="@color/buttonMainText" />
+
+                <Button
+                    android:id="@+id/buttonNewJobSelectTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/buttonMain"
+                    android:text="@string/dialog_job_time_select"
+                    android:textColor="@color/buttonMainText" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/dialog_job_priority"
+                android:textColor="@color/header1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupNewJobPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButtonEasy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/priority_easy"
+                    android:textAlignment="center"
+                    android:textColor="#4CAF50" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/priority_medium"
+                    android:textColor="#FF9800" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/priority_hard"
+                    android:textColor="#F44336" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonNewJobAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/buttonMain"
+                    android:text="@string/dialog_add_new_job"
+                    android:textColor="@color/buttonMainText" />
+
+                <Button
+                    android:id="@+id/buttonNewJobCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/buttonMain"
+                    android:text="@string/cancel"
+                    android:textColor="@color/buttonMainText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

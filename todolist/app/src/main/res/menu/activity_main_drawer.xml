@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_jobs">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_baseline_checklist_24"
+                android:iconTint="@color/jobCardViewEdit"
+                android:title="@string/menu_all" />
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_baseline_cached_24"
+                android:title="@string/menu_home" />
+            <item
+                android:id="@+id/nav_done"
+                android:icon="@drawable/ic_baseline_check_24"
+                android:title="@string/menu_done" />
+        </menu>
+
+    </item>
+    <item android:title="@string/menu_another">
+    <menu>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info"
+            android:title="@string/menu_about" />
+    </menu>
+    </item>
+</menu>

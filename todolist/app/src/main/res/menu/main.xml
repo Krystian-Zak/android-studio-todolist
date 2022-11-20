@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_mark_all_done"
+        android:orderInCategory="100"
+        android:title="@string/action_mark_all_done"
+        app:showAsAction="never"
+        android:textColor="@color/white"/>
+
+    <item
+        android:id="@+id/action_mark_all_progress"
+        android:orderInCategory="100"
+        android:title="@string/action_mark_all_progress"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="100"
+        android:title="@string/action_sort"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Szukaj"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="refresh"
+        app:showAsAction="always" />
+</menu>
